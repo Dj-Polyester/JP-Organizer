@@ -1,6 +1,6 @@
-# jp-organizer
+# JP-organizer
 
-**jp-organizer** is a production-quality MCP server for organizing Japanese-learning flashcards in Anki.
+**JP-organizer** is a production-quality MCP server for organizing Japanese-learning flashcards in Anki.
 
 It connects to Anki via [AnkiConnect](https://git.sr.ht/~foosoft/anki-connect), indexes [JMdict](http://www.edrdg.org/jmdict/j_jmdict.html) and [KANJIDIC](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project) into compact SQLite databases, and uses a hybrid classification system to automatically tag vocabulary and extract kanji.
 
@@ -15,7 +15,7 @@ It connects to Anki via [AnkiConnect](https://git.sr.ht/~foosoft/anki-connect), 
                  MCP calls      LLM semantic
                       │          classification (fallback only)
                       ▼                │
-                 jp-organizer ◄────────┘
+                 JP-organizer ◄────────┘
                       │
             ┌─────────┼──────────┐
             │         │          │
@@ -33,7 +33,7 @@ It connects to Anki via [AnkiConnect](https://git.sr.ht/~foosoft/anki-connect), 
 
 ## How it works
 
-jp-organizer talks to the **Anki desktop app running on your computer** via the AnkiConnect add-on. It does **not** connect to AnkiWeb directly and does **not** need your AnkiWeb email or password.
+JP-organizer talks to the **Anki desktop app running on your computer** via the AnkiConnect add-on. It does **not** connect to AnkiWeb directly and does **not** need your AnkiWeb email or password.
 
 ### Where the decks appear
 
@@ -67,9 +67,9 @@ Leaf decks:
 
 ### AnkiWeb sync
 
-If you already use AnkiWeb to sync between devices, nothing changes. Anki's built-in sync (the sync button in the top-right corner of Anki) pushes your local collection — including the new decks and cards created by jp-organizer — to AnkiWeb. From there, they sync to your phone, tablet, or other computers just like any other deck.
+If you already use AnkiWeb to sync between devices, nothing changes. Anki's built-in sync (the sync button in the top-right corner of Anki) pushes your local collection — including the new decks and cards created by JP-organizer — to AnkiWeb. From there, they sync to your phone, tablet, or other computers just like any other deck.
 
-jp-organizer never touches AnkiWeb credentials. It only talks to the local Anki instance.
+JP-organizer never touches AnkiWeb credentials. It only talks to the local Anki instance.
 
 ### Prerequisites
 
@@ -395,11 +395,11 @@ Reclassify all mimetics and expressions in Japanese Inbox.
 ### Dictionary lookup
 
 ```text
-Look up the POS information jp-organizer has for 食べる.
+Look up the POS information JP-organizer has for 食べる.
 ```
 
 ```text
-Show me the KANJIDIC information jp-organizer has for 食.
+Show me the KANJIDIC information JP-organizer has for 食.
 ```
 
 ### First-time setup (automatic discovery)
@@ -424,7 +424,7 @@ User: "Organize my Japanese Inbox"
 
 ### Stdio mode (recommended)
 
-Run jp-organizer as a local stdio subprocess. This is the simplest and most reliable approach.
+Run JP-organizer as a local stdio subprocess. This is the simplest and most reliable approach.
 
 **OpenCode:**
 ```bash
@@ -483,7 +483,7 @@ Then add by URL:
 
 AnkiConnect requires authentication only if you have configured an API key in AnkiConnect's settings (Tools → Add-ons → AnkiConnect → Config → `apiKey`).
 
-If authentication is enabled, provide the key when starting jp-organizer:
+If authentication is enabled, provide the key when starting JP-organizer:
 
 ```bash
 uv run jp-organizer --anki-connect-key YOUR_API_KEY
@@ -491,7 +491,7 @@ uv run jp-organizer --anki-connect-key YOUR_API_KEY
 
 Or set the `ANKI_CONNECT_KEY` environment variable.
 
-If no key is configured in AnkiConnect, jp-organizer connects without authentication.
+If no key is configured in AnkiConnect, JP-organizer connects without authentication.
 
 ## Dictionary licensing
 
