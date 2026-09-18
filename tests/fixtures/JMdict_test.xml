@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JMdict [
+<!ENTITY n "noun (common) (futsuumeishi)">
+<!ENTITY v5r "Godan verb with 'ru' ending">
+<!ENTITY adj-i "adjective (keiyoushi)">
+<!ENTITY adv "adverb (fukushi)">
+<!ENTITY vs "noun or participle which takes the aux. verb suru">
+<!ENTITY exp "expressions (phrases, clauses, etc.)">
+<!ENTITY on-mim "onomatopoeic or mimetic word">
+<!ENTITY id "idiomatic expression">
+]>
+<JMdict>
+<entry>
+<ent_seq>1000010</ent_seq>
+<k_ele><keb>学生</keb></k_ele>
+<r_ele><reb>がくせい</reb></r_ele>
+<sense><pos>&n;</pos><gloss>student</gloss></sense>
+</entry>
+<entry>
+<ent_seq>1000020</ent_seq>
+<k_ele><keb>食べる</keb></k_ele>
+<r_ele><reb>たべる</reb></r_ele>
+<sense><pos>&v5r;</pos><gloss>to eat</gloss></sense>
+</entry>
+<entry>
+<ent_seq>1000030</ent_seq>
+<r_ele><reb>きれい</reb></r_ele>
+<sense><pos>&adj-i;</pos><gloss>pretty</gloss></sense>
+</entry>
+<entry>
+<ent_seq>1000040</ent_seq>
+<r_ele><reb>ゆっくり</reb></r_ele>
+<sense><pos>&adv;</pos><gloss>slowly</gloss></sense>
+</entry>
+<entry>
+<ent_seq>1000050</ent_seq>
+<r_ele><reb>ぐっすり</reb></r_ele>
+<sense><pos>&adv;</pos><misc>&on-mim;</misc><gloss>soundly</gloss></sense>
+</entry>
+<entry>
+<ent_seq>1000060</ent_seq>
+<k_ele><keb>顔が広い</keb></k_ele>
+<r_ele><reb>かおがひろい</reb></r_ele>
+<sense><pos>&exp;</pos><gloss>well-connected</gloss></sense>
+</entry>
+<entry>
+<ent_seq>1000070</ent_seq>
+<k_ele><keb>約束を守る</keb></k_ele>
+<r_ele><reb>やくそくをまもる</reb></r_ele>
+<sense><pos>&exp;</pos><gloss>keep a promise</gloss></sense>
+</entry>
+<entry>
+<ent_seq>1000080</ent_seq>
+<k_ele><keb>〜ことになる</keb></k_ele>
+<r_ele><reb>ことになる</reb></r_ele>
+<sense><pos>&exp;</pos><gloss>it has been decided that</gloss></sense>
+</entry>
+<entry>
+<ent_seq>1000090</ent_seq>
+<k_ele><keb>日本</keb></k_ele>
+<r_ele><reb>にほん</reb></r_ele>
+<r_ele><reb>にっぽん</reb></r_ele>
+<sense><pos>&n;</pos><gloss>Japan</gloss></sense>
+</entry>
+<entry>
+<ent_seq>1000100</ent_seq>
+<r_ele><reb>どきどき</reb></r_ele>
+<sense><pos>&adv;</pos><misc>&on-mim;</misc><gloss>heart pounding</gloss></sense>
+</entry>
+<entry>
+<ent_seq>1000110</ent_seq>
+<k_ele><keb>一石二鳥</keb></k_ele>
+<r_ele><reb>いっせきにちょう</reb></r_ele>
+<sense><pos>&exp;</pos><misc>&id;</misc><gloss>killing two birds with one stone</gloss></sense>
+</entry>
+</JMdict>

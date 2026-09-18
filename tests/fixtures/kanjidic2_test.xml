@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kanjidic2 [
+<!ELEMENT kanjidic2 (header,character*)>
+<!ELEMENT header (file_version,database_version,date_of_creation)>
+<!ELEMENT file_version (#PCDATA)>
+<!ELEMENT database_version (#PCDATA)>
+<!ELEMENT date_of_creation (#PCDATA)>
+<!ELEMENT character (literal,codepoint, radical, misc, dic_number?, query_code?, reading_meaning?)>
+<!ELEMENT literal (#PCDATA)>
+<!ELEMENT codepoint (cp_value+)>
+<!ELEMENT cp_value (#PCDATA)>
+<!ATTLIST cp_value cp_type CDATA #REQUIRED>
+<!ELEMENT radical (rad_value+)>
+<!ELEMENT rad_value (#PCDATA)>
+<!ATTLIST rad_value rad_type CDATA #REQUIRED>
+<!ELEMENT misc (grade?, stroke_count+, variant*, freq?, rad_name*,jlpt?)>
+<!ELEMENT grade (#PCDATA)>
+<!ELEMENT stroke_count (#PCDATA)>
+<!ELEMENT variant (#PCDATA)>
+<!ATTLIST variant var_type CDATA #REQUIRED>
+<!ELEMENT freq (#PCDATA)>
+<!ELEMENT rad_name (#PCDATA)>
+<!ELEMENT jlpt (#PCDATA)>
+<!ELEMENT dic_number (dic_ref+)>
+<!ELEMENT dic_ref (#PCDATA)>
+<!ATTLIST dic_ref dr_type CDATA #REQUIRED>
+<!ATTLIST dic_ref m_vol CDATA #IMPLIED>
+<!ATTLIST dic_ref m_page CDATA #IMPLIED>
+<!ELEMENT query_code (q_code+)>
+<!ELEMENT q_code (#PCDATA)>
+<!ATTLIST q_code qc_type CDATA #REQUIRED>
+<!ATTLIST q_code skip_misclass CDATA #IMPLIED>
+<!ELEMENT reading_meaning (rmgroup*,nanori*)>
+<!ELEMENT rmgroup (reading*,meaning*)>
+<!ELEMENT reading (#PCDATA)>
+<!ATTLIST reading r_type CDATA #IMPLIED>
+<!ELEMENT meaning (#PCDATA)>
+<!ATTLIST meaning m_lang CDATA #IMPLIED>
+<!ELEMENT nanori (#PCDATA)>
+]>
+<kanjidic2>
+<header>
+<file_version>1</file_version>
+<database_version>2024-001</database_version>
+<date_of_creation>2024-01-01</date_of_creation>
+</header>
+<character>
+<literal>日</literal>
+<codepoint><cp_value cp_type="ucs">65E5</cp_value></codepoint>
+<radical><rad_value rad_type="classical">72</rad_value></radical>
+<misc><grade>1</grade><stroke_count>4</stroke_count><freq>1</freq><jlpt>4</jlpt></misc>
+<reading_meaning>
+<rmgroup>
+<reading r_type="ja_on">ニチ</reading>
+<reading r_type="ja_on">ジツ</reading>
+<reading r_type="ja_kun">ひ</reading>
+<reading r_type="ja_kun">-び</reading>
+<reading r_type="ja_kun">-か</reading>
+<meaning>day</meaning>
+<meaning>sun</meaning>
+<meaning>Japan</meaning>
+</rmgroup>
+</reading_meaning>
+</character>
+<character>
+<literal>本</literal>
+<codepoint><cp_value cp_type="ucs">672C</cp_value></codepoint>
+<radical><rad_value rad_type="classical">75</rad_value></radical>
+<misc><grade>1</grade><stroke_count>5</stroke_count><freq>10</freq><jlpt>4</jlpt></misc>
+<reading_meaning>
+<rmgroup>
+<reading r_type="ja_on">ホン</reading>
+<reading r_type="ja_kun">もと</reading>
+<meaning>book</meaning>
+<meaning>present</meaning>
+<meaning>main</meaning>
+<meaning>origin</meaning>
+<meaning>true</meaning>
+<meaning>real</meaning>
+<meaning>counter for long cylindrical things</meaning>
+</rmgroup>
+</reading_meaning>
+</character>
+<character>
+<literal>学</literal>
+<codepoint><cp_value cp_type="ucs">5B66</cp_value></codepoint>
+<radical><rad_value rad_type="classical">39</rad_value></radical>
+<misc><grade>1</grade><stroke_count>8</stroke_count><freq>63</freq><jlpt>4</jlpt></misc>
+<reading_meaning>
+<rmgroup>
+<reading r_type="ja_on">ガク</reading>
+<reading r_type="ja_kun">まな.ぶ</reading>
+<meaning>study</meaning>
+<meaning>learning</meaning>
+<meaning>science</meaning>
+</rmgroup>
+</reading_meaning>
+</character>
+<character>
+<literal>生</literal>
+<codepoint><cp_value cp_type="ucs">751F</cp_value></codepoint>
+<radical><rad_value rad_type="classical">100</rad_value></radical>
+<misc><grade>1</grade><stroke_count>5</stroke_count><freq>29</freq><jlpt>4</jlpt></misc>
+<reading_meaning>
+<rmgroup>
+<reading r_type="ja_on">セイ</reading>
+<reading r_type="ja_on">ショウ</reading>
+<reading r_type="ja_kun">い.きる</reading>
+<reading r_type="ja_kun">い.かす</reading>
+<reading r_type="ja_kun">い.ける</reading>
+<reading r_type="ja_kun">う.まれる</reading>
+<reading r_type="ja_kun">うま.れる</reading>
+<reading r_type="ja_kun">う.まれ</reading>
+<reading r_type="ja_kun">うまれ</reading>
+<reading r_type="ja_kun">お.う</reading>
+<reading r_type="ja_kun">き</reading>
+<reading r_type="ja_kun">なま</reading>
+<reading r_type="ja_kun">なま-</reading>
+<reading r_type="ja_kun">な.る</reading>
+<reading r_type="ja_kun">な.す</reading>
+<reading r_type="ja_kun">む.す</reading>
+<reading r_type="ja_kun">-う</reading>
+<meaning>life</meaning>
+<meaning>genuine</meaning>
+<meaning>birth</meaning>
+</rmgroup>
+</reading_meaning>
+</character>
+<character>
+<literal>食</literal>
+<codepoint><cp_value cp_type="ucs">98DF</cp_value></codepoint>
+<radical><rad_value rad_type="classical">184</rad_value></radical>
+<misc><grade>2</grade><stroke_count>9</stroke_count><freq>328</freq><jlpt>3</jlpt></misc>
+<reading_meaning>
+<rmgroup>
+<reading r_type="ja_on">ショク</reading>
+<reading r_type="ja_on">ジキ</reading>
+<reading r_type="ja_kun">く.う</reading>
+<reading r_type="ja_kun">く.らう</reading>
+<reading r_type="ja_kun">た.べる</reading>
+<reading r_type="ja_kun">は.む</reading>
+<meaning>eat</meaning>
+<meaning>food</meaning>
+</rmgroup>
+</reading_meaning>
+</character>
+</kanjidic2>
